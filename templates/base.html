@@ -1,0 +1,16 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <meta charset="UTF-8">
+        <title>Conferences{% block title %}{% endblock %}</title>
+    </head>
+    <body>
+        <div class="header">
+
+        </div>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>

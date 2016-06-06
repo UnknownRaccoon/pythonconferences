@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %} - {{ conference.name }}{% endblock %}
+{% block content %}
+    {{ conference.name}}
+    {{ conference.description }}
+    {{ conference.date }}
+    {% if user.is_authenticated %}
+        {{ registration_form.as_p }}
+    {% else %}
+        To participate, please <a href="{% url login %}">log in</a> or <a href="{% url signup %}">sign up</a>
+    {% endif %}
+{% endblock %}
