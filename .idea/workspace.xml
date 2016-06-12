@@ -2,345 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe02e4a-c0ae-45ca-a103-29cbe25c2e9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat/consumers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat/routing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chat/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conferences/static/js/chat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conferences/static/js/notifications.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom_auth/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom_auth/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom_auth/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom_auth/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom_auth/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom_auth/signals.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom_auth/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom_auth/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom_auth/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/conferences/archive.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/messages/chats.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/messages/message.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/registration/update.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/conferences/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/conferences/migrations/0002_conference_description.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/conferences/migrations/0003_auto_20160605_0841.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/conferences/migrations/0004_article_date_published.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Django-1.9.6.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Django-1.9.6.dist-info/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Django-1.9.6.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Django-1.9.6.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Django-1.9.6.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Django-1.9.6.dist-info/entry_points.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Django-1.9.6.dist-info/metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Django-1.9.6.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Pillow-3.2.0-py3.5.egg-info/PKG-INFO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Pillow-3.2.0-py3.5.egg-info/SOURCES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Pillow-3.2.0-py3.5.egg-info/dependency_links.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Pillow-3.2.0-py3.5.egg-info/installed-files.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Pillow-3.2.0-py3.5.egg-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Pillow-3.2.0-py3.5.egg-info/zip-safe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django_jinja-2.1.3-py3.5.egg-info/PKG-INFO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django_jinja-2.1.3-py3.5.egg-info/SOURCES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django_jinja-2.1.3-py3.5.egg-info/dependency_links.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django_jinja-2.1.3-py3.5.egg-info/installed-files.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django_jinja-2.1.3-py3.5.egg-info/requires.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django_jinja-2.1.3-py3.5.egg-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/easy-install.pth" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/EGG-INFO/PKG-INFO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/EGG-INFO/SOURCES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/EGG-INFO/dependency_links.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/EGG-INFO/entry_points.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/EGG-INFO/not-zip-safe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/EGG-INFO/pbr.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/EGG-INFO/requires.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/EGG-INFO/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/__main__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/_markerlib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/_markerlib/markers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/cachecontrol/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/cachecontrol/adapter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/cachecontrol/cache.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/cachecontrol/caches/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/cachecontrol/caches/file_cache.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/cachecontrol/caches/redis_cache.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/cachecontrol/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/cachecontrol/controller.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/cachecontrol/filewrapper.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/cachecontrol/heuristics.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/cachecontrol/serialize.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/cachecontrol/wrapper.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/colorama/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/colorama/ansi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/colorama/ansitowin32.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/colorama/initialise.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/colorama/win32.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/colorama/winterm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/_backport/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/_backport/misc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/_backport/shutil.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/_backport/sysconfig.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/_backport/sysconfig.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/_backport/tarfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/database.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/index.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/locators.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/manifest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/markers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/metadata.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/resources.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/scripts.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/t32.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/t64.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/util.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/version.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/w32.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/w64.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/distlib/wheel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/constants.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/filters/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/filters/_base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/filters/alphabeticalattributes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/filters/lint.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/filters/optionaltags.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/filters/sanitizer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/filters/whitespace.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/html5parser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/ihatexml.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/inputstream.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/sanitizer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/serializer/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/serializer/htmlserializer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/tokenizer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/treeadapters/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/treeadapters/sax.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/treebuilders/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/treebuilders/_base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/treebuilders/dom.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/treebuilders/etree.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/treewalkers/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/treewalkers/_base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/treewalkers/dom.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/treewalkers/etree.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/treewalkers/genshistream.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/treewalkers/lxmletree.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/treewalkers/pulldom.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/trie/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/trie/_base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/trie/datrie.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/trie/py.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/html5lib/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/ipaddress.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/lockfile/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/lockfile/linklockfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/lockfile/mkdirlockfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/lockfile/pidlockfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/lockfile/sqlitelockfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/lockfile/symlinklockfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/packaging/__about__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/packaging/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/packaging/_compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/packaging/_structures.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/packaging/specifiers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/packaging/version.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/pkg_resources/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/progress/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/progress/bar.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/progress/counter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/progress/helpers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/progress/spinner.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/re-vendor.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/adapters.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/api.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/auth.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/cacert.pem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/certs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/cookies.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/hooks.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/big5freq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/big5prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/chardetect.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/chardistribution.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/charsetgroupprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/charsetprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/codingstatemachine.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/constants.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/cp949prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/escprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/escsm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/eucjpprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/euckrfreq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/euckrprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/euctwfreq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/euctwprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/gb2312freq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/gb2312prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/hebrewprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/jisfreq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/jpcntx.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/langbulgarianmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/langcyrillicmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/langgreekmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/langhebrewmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/langhungarianmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/langthaimodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/latin1prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/mbcharsetprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/mbcsgroupprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/mbcssm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/sbcharsetprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/sbcsgroupprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/sjisprober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/universaldetector.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/chardet/utf8prober.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/_collections.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/connectionpool.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/contrib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/contrib/ntlmpool.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/contrib/pyopenssl.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/fields.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/filepost.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/packages/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/packages/ordered_dict.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/packages/six.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/_implementation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/poolmanager.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/request.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/response.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/util/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/util/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/util/request.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/util/response.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/util/retry.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/util/ssl_.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/util/timeout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/packages/urllib3/util/url.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/sessions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/status_codes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/structures.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/requests/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/retrying.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/_vendor/six.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/basecommand.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/baseparser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/cmdoptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/commands/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/commands/completion.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/commands/freeze.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/commands/help.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/commands/install.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/commands/list.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/commands/search.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/commands/show.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/commands/uninstall.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/commands/wheel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/compat/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/compat/dictconfig.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/download.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/index.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/locations.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/models/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/models/index.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/operations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/operations/freeze.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/pep425tags.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/req/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/req/req_file.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/req/req_install.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/req/req_set.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/req/req_uninstall.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/status_codes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/utils/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/utils/appdirs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/utils/build.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/utils/deprecation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/utils/filesystem.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/utils/logging.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/utils/outdated.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/utils/ui.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/vcs/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/vcs/bazaar.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/vcs/git.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/vcs/mercurial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/vcs/subversion.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/pip-7.1.0-py3.5.egg/pip/wheel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/psycopg2-2.6.1-py3.5.egg-info/PKG-INFO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/psycopg2-2.6.1-py3.5.egg-info/SOURCES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/psycopg2-2.6.1-py3.5.egg-info/dependency_links.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/psycopg2-2.6.1-py3.5.egg-info/installed-files.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/psycopg2-2.6.1-py3.5.egg-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/setuptools-18.1-py3.5.egg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/setuptools.pth" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/lib64" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/env/pyvenv.cfg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/conferences/migrations/__init__.py" afterPath="$PROJECT_DIR$/Conferences/asgi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/bin/python" afterPath="$PROJECT_DIR$/env/bin/python" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/bin/python3.5" afterPath="$PROJECT_DIR$/env/bin/python3.5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conferences/settings.py" afterPath="$PROJECT_DIR$/Conferences/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conferences/urls.py" afterPath="$PROJECT_DIR$/Conferences/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conferences/admin.py" afterPath="$PROJECT_DIR$/conferences/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conferences/forms.py" afterPath="$PROJECT_DIR$/conferences/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conferences/models.py" afterPath="$PROJECT_DIR$/conferences/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conferences/static/css/style.css" afterPath="$PROJECT_DIR$/conferences/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conferences/urls.py" afterPath="$PROJECT_DIR$/conferences/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conferences/views.py" afterPath="$PROJECT_DIR$/conferences/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/bin/activate" afterPath="$PROJECT_DIR$/env/bin/activate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/bin/activate.csh" afterPath="$PROJECT_DIR$/env/bin/activate.csh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/bin/activate.fish" afterPath="$PROJECT_DIR$/env/bin/activate.fish" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/bin/easy_install" afterPath="$PROJECT_DIR$/env/bin/easy_install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/bin/easy_install-3.5" afterPath="$PROJECT_DIR$/env/bin/easy_install-3.5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/bin/pip" afterPath="$PROJECT_DIR$/env/bin/pip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/bin/pip3" afterPath="$PROJECT_DIR$/env/bin/pip3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/bin/pip3.5" afterPath="$PROJECT_DIR$/env/bin/pip3.5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Jinja2-2.8.dist-info/RECORD" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/Jinja2-2.8.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/MarkupSafe-0.23.dist-info/RECORD" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/MarkupSafe-0.23.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/__init__.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/contrib/admin/sites.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/contrib/admin/sites.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/contrib/admin/templates/admin/login.html" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/contrib/admin/templates/admin/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/contrib/auth/password_validation.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/contrib/auth/password_validation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/contrib/gis/templates/gis/openlayers.html" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/contrib/gis/templates/gis/openlayers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/contrib/postgres/forms/hstore.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/contrib/postgres/forms/hstore.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/db/backends/base/base.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/db/backends/base/base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/db/backends/base/operations.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/db/backends/base/operations.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/db/backends/postgresql/client.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/db/backends/postgresql/client.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/db/models/expressions.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/db/models/expressions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/db/models/fields/related_descriptors.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/db/models/fields/related_descriptors.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/db/models/fields/related_lookups.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/db/models/fields/related_lookups.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/http/utils.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/http/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/middleware/csrf.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/middleware/csrf.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/template/defaultfilters.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/template/defaultfilters.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/template/loaders/cached.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/template/loaders/cached.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/utils/cache.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/utils/cache.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/utils/http.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/utils/http.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/views/defaults.py" afterPath="$PROJECT_DIR$/env/lib/python3.5/site-packages/django/views/defaults.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/pip-selfcheck.json" afterPath="$PROJECT_DIR$/env/pip-selfcheck.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/articles/article.html" afterPath="$PROJECT_DIR$/templates/articles/article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/conferences/conference.html" afterPath="$PROJECT_DIR$/templates/conferences/conference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/conferences/index.html" afterPath="$PROJECT_DIR$/templates/conferences/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/registration/profile.html" afterPath="$PROJECT_DIR$/templates/registration/profile.html" />
     </list>
     <ignored path="Conferences.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -417,7 +79,7 @@
       <file leaf-file-name="conference.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/conferences/conference.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="405">
               <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
               <folding />
             </state>
@@ -427,8 +89,8 @@
       <file leaf-file-name="profile.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/registration/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -457,7 +119,7 @@
       <file leaf-file-name="consumers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat/consumers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="225">
               <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -499,7 +161,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conferences/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
+            <state relative-caret-position="510">
               <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
@@ -626,6 +288,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -706,7 +369,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1005,9 +667,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="738" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16993958" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17220543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273906" sideWeight="0.5030211" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26359516" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1227,31 +889,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/Screenshot_20160603_221857.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/Screenshot_20160522_010754_BcS4zRl.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/Screenshot_20160521_015627.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/Screenshot_20160522_010754.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/Screenshot_20160528_210733.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/media/Screenshot_20160603_221857.png" />
+    <entry file="file://$PROJECT_DIR$/media/Screenshot_20160522_010754_BcS4zRl.png" />
+    <entry file="file://$PROJECT_DIR$/media/Screenshot_20160521_015627.png" />
+    <entry file="file://$PROJECT_DIR$/media/Screenshot_20160522_010754.png" />
+    <entry file="file://$PROJECT_DIR$/media/Screenshot_20160528_210733.png" />
     <entry file="file://$PROJECT_DIR$/custom_auth/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1274,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1290,7 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,7 +951,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,7 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1342,7 +980,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1360,7 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1384,10 +1020,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/messages/chats.html">
+    <entry file="dbDummy://dbtable:/93f38145/9d5ce9e4-cb37-4afb-b4bd-08ae492057e7/conferences.public.chat_message">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/conferences/conference.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="405">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1408,22 +1064,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/93f38145/9d5ce9e4-cb37-4afb-b4bd-08ae492057e7/conferences.public.chat_message">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chat/consumers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="225">
           <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -1431,18 +1074,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conferences/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/messages/chats.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/conferences/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1455,9 +1090,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/conferences/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conferences/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
+        <state relative-caret-position="510">
           <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -1465,18 +1108,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/conferences/conference.html">
+    <entry file="file://$PROJECT_DIR$/templates/conferences/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/registration/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

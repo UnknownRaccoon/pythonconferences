@@ -1,2 +1,2 @@
-To start the server, switch to virtualenv and run "./manage.py runworker" and "daphne Conferences.asgi:channel_layer --port 8888"
+To start the server, switch to virtualenv and run "./manage.py runworker" and "daphne Conferences.asgi:channel_layer --port 8888 --unix-socket=/tmp/daphne.sock"
 Works with nginx
