@@ -1,12 +1,56 @@
 {% extends 'base.html' %}
 {% block title %} - {{ conference.name }}{% endblock %}
 {% block content %}
-    {{ conference.name}}
-    {{ conference.description }}
-    {{ conference.date }}
+    <h1>{{ conference.name }}</h1>
+    <p>{{ conference.description }}</p>
+    {% if speakers %}
+        <h3>Speakers:</h3>
+        <hr />
+        {% for speaker in speakers %}
+            <a href="{% url 'profile_path' speaker.profile.id %}"><h4>{{ speaker.profile.user.username }}</h4></a>
+            <h5>{{ speaker.subject }}</h5>
+            {{ speaker.description }}
+            <hr />
+        {% endfor %}
+    {% endif %}
+    {% if conference.companies.all %}
+        <h3>Sponsors:</h3>
+        {% for sponsor in conference.companies.all %}
+            <div><img src="{{ sponsor.logo.url }}">
+                {{ sponsor.name }}</div>
+        {% endfor %}
+        <hr />
+    {% endif %}
+    <strong>Starting at: </strong>{{ conference.date }}
+    {% if participants %}
+        <div>
+        {% for participant in participants %}
+        <a href="{%   url 'profile_path' participant.id %}">{{ participant.user.username }}</a>
+        {% endfor %}
+        </div>
+    {% endif %}
+    <div>
+        {% if user.company %}
+            {% if conference not in user.company.conference_set.all %}
+                <a href="{% url 'support_path' conference.id %}">You can support this conference</a>
+            {% else %}
+                You have already supported this conference
+            {% endif %}
+        {% endif %}
+    </div>
+
     {% if user.is_authenticated %}
-        {{ registration_form.as_p }}
+        {% if conference in user.profile.conference_set.all %}
+            <h2>You have already been registered for this conference!</h2>
+        {% else %}
+        <form method="post" id="registrationform">
+            <h2>Fill in the form to register for this conference</h2>
+            {% csrf_token %}
+            {{ registration_form.as_p }}
+            <input type="submit" value="Register" />
+        </form>
+            {% endif %}
     {% else %}
-        To participate, please <a href="{% url login %}">log in</a> or <a href="{% url signup %}">sign up</a>
+        To participate, please <a href="{% url 'login' %}">log in</a> or <a href="{% url 'signup' %}">sign up</a>
     {% endif %}
 {% endblock %}

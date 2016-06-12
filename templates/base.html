@@ -2,15 +2,24 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script type="text/javascript" src="{% static 'js/reconnecting-websocket.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+        {% if user.is_authenticated %}
+            <script type="text/javascript">var user = {{ user.profile.id }};</script>
+            <script type="text/javascript" src="{% static 'js/notifications.js' %}"></script>
+        {% endif %}
         <link rel="stylesheet" href="{% static 'css/style.css' %}">
         <meta charset="UTF-8">
         <title>Conferences{% block title %}{% endblock %}</title>
+        {% block files %}{% endblock %}
     </head>
     <body>
+        <div id="notifications"></div>
         <div class="header">
-
         </div>
         {% block content %}
         {% endblock %}
+        <div class="footer">
+        </div>
     </body>
 </html>

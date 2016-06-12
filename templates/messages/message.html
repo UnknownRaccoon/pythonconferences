@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block files %}
+    <script type="text/javascript">
+        var user = "{{user.profile.id}}";
+        var companion = "{{ companion.id }}";
+    </script>
+    <script type="text/javascript" src="{% static 'js/chat.js' %}"></script>
+{% endblock %}
+{% block content %}
+    {{ user.username }}
+    {{ companion.user.username }}
+    <div id="chat">
+        {% for message in previous_messages %}
+            <div>{{ message.text }}</div>
+        {% endfor %}
+    </div>
+    <form id="chatform">
+    {{ form.as_p }}
+    <input type="hidden" name="companion" id="companion_id" value="{{ companion.id }}" />
+    <input type="submit" value="Send" />
+    </form>
+{% endblock %}

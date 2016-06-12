@@ -1,10 +1,12 @@
 from datetime import datetime, timedelta
-from django.views import generic
-from django.views.generic import edit
-from .models import Conference, Profile, Article
-from django.contrib.auth.models import User
-from . import forms
 
+from custom_auth.models import Profile
+from django.views import generic
+from .models import Conference, Participation
+from . import forms
+from django.http import HttpResponseRedirect
+from django.core.urlresolvers import reverse
+import pytz
 
 class IndexView(generic.ListView):
     template_name = 'conferences/index.html'
@@ -14,40 +16,36 @@ class IndexView(generic.ListView):
         return Conference.objects.order_by('-date').filter(date__gte=(datetime.now() - timedelta(days=3)))
 
 
+class ArchiveListView(generic.ListView):
+    template_name = 'conferences/index.html'
+    context_object_name = 'conferences'
+
+    def get_queryset(self):
+        return Conference.objects.order_by('-date').filter(date__lt=(datetime.now() - timedelta(days=3)))
+
+
 class ConferenceView(generic.DetailView):
     model = Conference
     template_name = 'conferences/conference.html'
 
+    def post(self, request, *args, **kwargs):
+        Participation.objects.create(profile=request.user.profile,
+                                     conference=self.get_object(), role=request.POST['role'],
+                                     subject=request.POST['subject'],
+                                     description=request.POST['about'])
+        return HttpResponseRedirect(reverse('conference_path', args=[self.get_object().id]))
+
     def get_context_data(self, **kwargs):
-        context = super(ConferenceView,self).get_context_data(**kwargs)
+        context = super(ConferenceView, self).get_context_data(**kwargs)
         context['registration_form'] = forms.RegistrationForm
+        context['speakers'] = Participation.objects.filter(role=True, conference__id=self.kwargs['pk'])
+        if pytz.utc.localize(datetime.now()) > self.get_object().date:
+            context['participants'] = Profile.objects.filter(conference=self.get_object())
         return context
 
 
-class SignupView(edit.CreateView):
-    template_name = 'registration/register.html'
-    model = User
-    fields = ['email', 'username', 'password']
-    success_url = '/account'
-
-
-class ProfileView(generic.DetailView):
-    model = Profile
-    template_name = 'registration/profile.html'
-
-    def get_object(self, queryset=None):
-        return self.request.user
-
-    def get_queryset(self):
-        return Profile.objects.filter(user_id=self.request.user.id).first()
-
-
-class ArticlesView(generic.ListView):
-    paginate_by = 5
-    model = Article
-    template_name = 'articles/index.html'
-
-
-class ArticleView(generic.DetailView):
-    model = Article
-    template_name = 'articles/article.html'
+class SupportView(generic.View):
+    def dispatch(self, request, *args, **kwargs):
+        if request.user.company is not None:
+            Conference.objects.get(pk=kwargs['conference']).companies.add(request.user.company)
+        return HttpResponseRedirect(reverse('conference_path', args=[kwargs['conference']]))

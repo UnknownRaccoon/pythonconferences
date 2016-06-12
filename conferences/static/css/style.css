@@ -1,0 +1,13 @@
+#notifications {
+    position: fixed;
+    width: 150px;
+    right: 0;
+    top: 0;
+}
+
+#registrationform {
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid black;
+}

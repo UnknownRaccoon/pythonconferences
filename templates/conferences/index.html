@@ -1,6 +1,10 @@
 {% extends 'base.html' %}
 {% block content %}
     {% for conference in conferences %}
-        <a href="{% url 'conference_path' conference.id %}">{{ conference.name }}</a>
+        <div class="conference">
+            <a href="{% url 'conference_path' conference.id %}"><h2>{{ conference.name }}</h2></a>
+            <p>{{ conference.description|truncatechars:500 }}</p>
+            <div><strong>Starting at:</strong> {{ conference.date }}</div>
+        </div>
     {% endfor %}
 {% endblock %}

@@ -23,7 +23,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'conferences',
+    'custom_auth.apps.AuthConfig',
+    'conferences.apps.ConferencesConfig',
+    'channels',
+    'news.apps.NewsConfig',
+    'chat.apps.ChatConfig',
+    'jquery',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -110,6 +115,9 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+
 TEMPLATE_LOADERS = (
     'django_jinja.loaders.AppLoader',
     'django_jinja.loaders.FileSystemLoader',
@@ -117,3 +125,13 @@ TEMPLATE_LOADERS = (
 )
 
 LOGIN_REDIRECT_URL = '/'
+
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "asgi_redis.RedisChannelLayer",
+        "CONFIG": {
+            "hosts": [os.environ.get('REDIS_URL', 'redis://localhost:6379')],
+        },
+        "ROUTING": "chat.routing.channel_routing",
+    },
+}

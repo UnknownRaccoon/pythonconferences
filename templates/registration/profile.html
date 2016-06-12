@@ -1,4 +1,18 @@
 {% extends 'base.html' %}
 {% block content %}
-    {{ profile.user.email }}
+    Email: {{ profile.user.email }}
+    Username: {{ profile.user.username }}
+    Avatar : {% if profile.avatar %}<img src="{{profile.avatar.url}}" />{%  else %} No avatar{% endif %}
+    {% if profile.company %}Company:{{ profile.company.name }}{% endif %}
+    First name: {{ profile.user.first_name }}
+    Last name: {{ profile.user.last_name }}
+    {% if profile.user == user %}
+    <a href="{% url 'edit_profile_path' profile.id %}"><button>Change data</button></a>
+    {% endif %}
+    <a href="{% url 'chat_path' %}?companion={{ profile.id }}">Send Message</a>
+    {% if user.company %}
+        {% if profile not in user.company.profile_set.all %}
+            <a href="{% url 'invite_path' profile.id %}">Add this user to your compnay</a>
+        {% endif %}
+    {% endif %}
 {% endblock %}
