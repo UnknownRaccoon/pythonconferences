@@ -16,6 +16,13 @@
     <body>
         <div id="notifications"></div>
         <div class="header">
+            <a href="/">Main page</a> |
+            {% if user.is_authenticated %}
+                Hello, <a href="{% url 'profile_path' user.profile.id %}">{{ user.username }}</a>
+            {% else %}
+                <a href="{% url 'login' %}">Sign in</a> or <a href="{% url 'signup' %}">sign up</a> to take part in lots of interesting conferences
+            {% endif %}
+        <hr />
         </div>
         {% block content %}
         {% endblock %}

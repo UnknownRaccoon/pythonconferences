@@ -12,7 +12,8 @@
     {{ companion.user.username }}
     <div id="chat">
         {% for message in previous_messages %}
-            <div>{{ message.text }}</div>
+            <div><p>{{ message.sender.user.username }}</p><p>{{ message.text }}</p><p>{{ message.date }}</p></div>
+            <hr />
         {% endfor %}
     </div>
     <form id="chatform">

@@ -11,3 +11,8 @@
     margin: auto;
     border: 1px solid black;
 }
+.notification {
+    background-color: #edecd6;
+    padding: 5px;
+    opacity: 10;
+}

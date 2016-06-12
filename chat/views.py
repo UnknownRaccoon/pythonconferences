@@ -1,11 +1,11 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic import edit
 from django.views import generic
 from .models import Message
-from django.db.models import QuerySet
 from custom_auth.models import Profile
 
 
-class MessageView(edit.CreateView):
+class MessageView(LoginRequiredMixin, edit.CreateView):
     template_name = 'messages/message.html'
     model = Message
     fields = ['text']
@@ -24,7 +24,7 @@ class MessageView(edit.CreateView):
         return ChatListView.as_view()(request)
 
 
-class ChatListView(generic.ListView):
+class ChatListView(LoginRequiredMixin, generic.ListView):
     template_name = 'messages/chats.html'
 
     def get_queryset(self):

@@ -8,7 +8,6 @@ from custom_auth.models import Profile
 
 @channel_session
 def ws_connect(message):
-    print(message['path'])
     try:
         get_dict = {param.split('=')[0]: param.split('=')[1] for param in message['query_string'].split('&')}
         users = sorted([get_dict[k] for k in ('user', 'companion') if k in get_dict])
@@ -20,7 +19,6 @@ def ws_connect(message):
             Profile.objects.get(pk=get_dict['user'])
             Profile.objects.get(pk=get_dict['companion'])
             label = ''.join([users[0], 'q', users[1]])
-            print(label)
             Group('chat-' + label, channel_layer=message.channel_layer).add(message.reply_channel)
             message.channel_session['room'] = label
     except ValueError:
@@ -46,7 +44,6 @@ def ws_receive(message):
         m = Message.objects.create(text=data['message'], sender=Profile.objects.get(pk=data['sender']),
                                    recipient=Profile.objects.get(pk=data['recipient']), date=datetime.now())
         Group('chat-' + label, channel_layer=message.channel_layer).send({'text': json.dumps(m.as_dict())})
-        print(str(m.recipient.id), str(m.sender.id))
         Group('notifications-user' + str(m.recipient.id),
               channel_layer=message.channel_layer).send({'text': json.dumps(m.as_dict())})
 

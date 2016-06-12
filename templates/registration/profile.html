@@ -7,12 +7,21 @@
     First name: {{ profile.user.first_name }}
     Last name: {{ profile.user.last_name }}
     {% if profile.user == user %}
-    <a href="{% url 'edit_profile_path' profile.id %}"><button>Change data</button></a>
+        <a href="{% url 'edit_profile_path' profile.id %}"><button>Change data</button></a>
+        <a href="{% url 'chat_room' %}"><button>My conversations</button></a>
     {% endif %}
-    <a href="{% url 'chat_path' %}?companion={{ profile.id }}">Send Message</a>
+    {% if user != profile.user %}
+        <a href="{% url 'chat_path' %}?companion={{ profile.id }}">Send Message</a>
+    {% endif %}
     {% if user.company %}
         {% if profile not in user.company.profile_set.all %}
             <a href="{% url 'invite_path' profile.id %}">Add this user to your compnay</a>
         {% endif %}
+    {% endif %}
+    {% if profile.conference_set.all %}
+        <h4>Conferences visited:</h4>
+        {% for conference in profile.conference_set.all %}
+        {{ conference.name }}<br/>
+        {% endfor %}
     {% endif %}
 {% endblock %}

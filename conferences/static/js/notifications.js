@@ -8,8 +8,7 @@ $(function() {
             var data = JSON.parse(message.data);
             var body = $('#notifications');
             var ele = $('<div id="notification' + counter + '"></div>');
-            ele.append($("<p></p>").text(data.text));
-            ele.append($("<p></p>").text(data.sender));
+            ele.append($('<div class="notification"></div>').text("New message\n" + data.sender + "\n" + data.text));
             counter++;
             body.append(ele);
             ele.fadeOut(5000);

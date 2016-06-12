@@ -125,6 +125,7 @@ TEMPLATE_LOADERS = (
 )
 
 LOGIN_REDIRECT_URL = '/'
+LOGIN_URL = '/login/'
 
 CHANNEL_LAYERS = {
     "default": {

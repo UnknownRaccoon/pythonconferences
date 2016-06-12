@@ -1,12 +1,13 @@
 from datetime import datetime, timedelta
-
 from custom_auth.models import Profile
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views import generic
 from .models import Conference, Participation
 from . import forms
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
 import pytz
+
 
 class IndexView(generic.ListView):
     template_name = 'conferences/index.html'
@@ -16,7 +17,7 @@ class IndexView(generic.ListView):
         return Conference.objects.order_by('-date').filter(date__gte=(datetime.now() - timedelta(days=3)))
 
 
-class ArchiveListView(generic.ListView):
+class ArchiveListView(LoginRequiredMixin, generic.ListView):
     template_name = 'conferences/index.html'
     context_object_name = 'conferences'
 
@@ -24,7 +25,7 @@ class ArchiveListView(generic.ListView):
         return Conference.objects.order_by('-date').filter(date__lt=(datetime.now() - timedelta(days=3)))
 
 
-class ConferenceView(generic.DetailView):
+class ConferenceView(LoginRequiredMixin, generic.DetailView):
     model = Conference
     template_name = 'conferences/conference.html'
 
@@ -44,7 +45,7 @@ class ConferenceView(generic.DetailView):
         return context
 
 
-class SupportView(generic.View):
+class SupportView(LoginRequiredMixin, generic.View):
     def dispatch(self, request, *args, **kwargs):
         if request.user.company is not None:
             Conference.objects.get(pk=kwargs['conference']).companies.add(request.user.company)
