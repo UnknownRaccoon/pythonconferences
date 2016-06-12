@@ -16,7 +16,7 @@
     <body>
         <div id="notifications"></div>
         <div class="header">
-            <a href="/">Main page</a> |
+            <a href="/">Main page</a> | <a href="{% url 'articles' %}">News</a> |
             {% if user.is_authenticated %}
                 Hello, <a href="{% url 'profile_path' user.profile.id %}">{{ user.username }}</a>
             {% else %}

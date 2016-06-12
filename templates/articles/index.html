@@ -1,7 +1,10 @@
 {% extends 'base.html' %}
 {% block content %}
     {% for article in article_list %}
-        <a href="{% url 'article_path' article.id %}">{{ article.title }}</a>
+        <a href="{% url 'article_path' article.id %}"><h2>{{ article.title }}</h2></a>
+        <p>{{ article.text|truncatechars:500 }}</p>
+        <div>Date published: {{ article.date_published }}</div>
+        <hr />
     {% endfor %}
     {% for page in paginator.page_range %}
         <a href="?page={{ page }}">{{ page }}</a>
